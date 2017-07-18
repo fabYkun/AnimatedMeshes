@@ -10,7 +10,7 @@ This package gives you the possibility of:
 
 For the moment the only mesh that can be instantiated are cones because they filled every needs I had (plus you can make cylinders and circles out of them), but more could easily be added like spheres or cubes... 
 
-## Step 1 : the art
+## Step 1 : The art
 Of course to make effects you need art and maybe some shaders. 
 Unity provides us with some neat shaders like those that are listed on Particles>(additive/alphablended/etc...). Use what correspond the most to your effect. 
 Once you have an idea of what to use you can use GameObject > Create Other > Cone to create a static mesh and test your materials on it. I used a script originaly made by Wolfram Kresse (http://wiki.unity3d.com/index.php/CreateCone), I just had to tweak it a little bit because the uv mapping wasn't finished and I cut off some of the code that I didn't need. 
@@ -42,3 +42,5 @@ Original Animation
 Reproduced in Unity with multiple animated cones
 
 ![charizardunity](https://user-images.githubusercontent.com/2204781/28324456-bab3ce4c-6bdb-11e7-87f4-f3cbd4aec7f2.gif)
+
+Disclaimer: of course to catchup with the full smash4 animation you will need some particles, you cannot escape the need of particles ^^
