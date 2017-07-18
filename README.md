@@ -12,8 +12,8 @@ For the moment the only mesh that can be instantiated are cones because they fil
 
 ## Step 1 : The art
 Of course to make effects you need art and maybe some shaders. 
-Unity provides us with some neat shaders like those that are listed on Particles>(additive/alphablended/etc...). Use what correspond the most to your effect. 
-Once you have an idea of what to use you can use GameObject > Create Other > Cone to create a static mesh and test your materials on it. I used a script originaly made by Wolfram Kresse (http://wiki.unity3d.com/index.php/CreateCone), I just had to tweak it a little bit because the uv mapping wasn't finished and I cut off some of the code that I didn't need. 
+Unity provides us with some neat shaders like those that are listed on Particles>(additive/alphablended/etc...). Use what best fits to your effect. 
+Once you have an idea of what to use you can use GameObject > Create Other > Cone to create a static mesh and test your materials on it. I used a script originaly made by Wolfram Kresse (http://wiki.unity3d.com/index.php/CreateCone), I just had to tweak it a little bit because the uv mapping wasn't finished and I cut off some code that I didn't need. 
 
 ## Step 2 : Making the animation
 On the project window, right clic > Create > AnimationFX > AnimatedMeshes > Cone to create an animated cone. It gives you plenty of parameters. 
